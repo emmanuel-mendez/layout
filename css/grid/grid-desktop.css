@@ -14,20 +14,36 @@
  }
 
 
+ /* Header */
+ .header {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+ }
+
+
  /* Nav */
  .nav {
   display: grid;
   grid-template-rows: 3rem 1fr;
   grid-template-columns: 1fr;
+  position: static;
+  height: auto;
+  width: auto;
+ }
+
+ .nav--toggle {
+  display: none;
  }
 
  .navigation {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  height: 100%;
   width: 80%;
   margin: 0 auto;
  }
+
 
  .navigation__link {
   display: flex;
