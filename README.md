@@ -1,7 +1,7 @@
 # grid-template
 Grid template (HTML + CSS + JS)
 
-Click on "Use this template" to start your own project.
+Click on "Use this template" to start your own project. The source code is into the src/ folder.
 
 Published at https://emmanelos.github.io/grid-template/
 
