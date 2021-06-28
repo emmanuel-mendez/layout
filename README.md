@@ -1,6 +1,8 @@
 # grid-template
 Grid template (HTML + CSS + JS)
 
+Published at https://emmanelos.github.io/grid-template/
+
 ## Mobile
 <p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="40%" src="https://user-images.githubusercontent.com/62371438/123628126-c0124100-d7e0-11eb-90ea-fa9bc5534870.jpeg" alt="Grid template Mobile"></a></p>
 
