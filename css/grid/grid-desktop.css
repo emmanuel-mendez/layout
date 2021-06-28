@@ -1,0 +1,49 @@
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+
+ /* Grid */
+ .grid {
+  grid-template-rows: 7rem minmax(6rem, auto) 1fr 7rem;
+  grid-template-columns: 1fr;
+ }
+
+
+ /* Nav */
+ .nav {
+  display: grid;
+  grid-template-rows: 3rem 1fr;
+  grid-template-columns: 1fr;
+ }
+
+ .navigation {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ .navigation__link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 .5rem;
+ }
+
+
+ /* Content */
+ .content {
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 75% 1fr;
+ }
+
+ .section,
+ .article {
+  grid-column: 1/2;
+ }
+
+ .aside {
+  grid-row: 1/3;
+  grid-column: 2/3;
+ }
+}
