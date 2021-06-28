@@ -1,0 +1,36 @@
+/* MOBILE */
+.grid {
+ display: grid;
+ grid-template-rows: 7rem 1fr 7rem;
+ grid-template-columns: 1fr;
+ grid-template-areas:
+  "header"
+  "content"
+  "footer"
+ ;
+ gap: 1rem;
+ min-height: 100vh;
+ padding: 1rem;
+}
+
+
+/* Nav */
+.nav {
+ display: none;
+}
+
+
+/* Content */
+.content {
+ display: grid;
+ grid-template-rows: repeat(3, auto);
+ grid-template-columns: 1fr;
+ grid-template-areas:
+  "section"
+  "aside"
+  "article"
+ ;
+ gap: 1rem;
+ width: 80%;
+ margin: 0 auto;
+}
