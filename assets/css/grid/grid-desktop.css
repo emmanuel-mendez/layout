@@ -24,7 +24,6 @@
 
  /* Nav */
  .nav {
-  display: grid;
   grid-template-rows: 3rem 1fr;
   grid-template-columns: 1fr;
   position: static;
@@ -46,16 +45,13 @@
 
 
  .navigation__link {
-  display: flex;
-  align-items: center;
-  height: 100%;
   padding: 0 .5rem;
  }
 
 
  /* Content */
  .content {
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(2, minmax(15rem, auto));
   grid-template-columns: 75% 1fr;
   grid-template-areas:
    "section aside"

@@ -9,13 +9,12 @@
   "footer"
  ;
  gap: 1rem;
- min-height: 100vh;
+ min-height: 100%;
  padding: 1rem;
 }
 
 
 /* Header */
-
 .header {
  flex-direction: row;
  justify-content: space-between;
@@ -24,7 +23,6 @@
 
 
 /* Nav */
-
 .nav {
  display: grid;
  grid-template-rows: 16.6% 1fr;
@@ -36,6 +34,13 @@
  right: -100%;
  transition: right .5s;
  z-index: 1;
+}
+
+.nav__subtitle {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .nav.show {
@@ -63,13 +68,14 @@
  width: 2.2rem;
  height: 1.6rem;
  background: linear-gradient(white 20%, transparent 20%, transparent 40%, white 40%, white 60%, transparent 60%, transparent 80%, white 80%);
+ cursor: pointer;
 }
 
 
 /* Content */
 .content {
  display: grid;
- grid-template-rows: repeat(3, auto);
+ grid-template-rows: repeat(3, minmax(15rem, auto));
  grid-template-columns: 1fr;
  grid-template-areas:
   "section"
