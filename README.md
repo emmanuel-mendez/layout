@@ -1,10 +1,14 @@
-# grid-template
-Grid template (HTML + CSS + JS)
+# Responsive grid template
+HTML + CSS + JS & Flexbox + Grid
+
+Click on "Use this template" to start your own project.
 
 Published at https://emmanelos.github.io/grid-template/
 
+# Captures
+
 ## Mobile
-<p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="40%" src="https://user-images.githubusercontent.com/62371438/123628126-c0124100-d7e0-11eb-90ea-fa9bc5534870.jpeg" alt="Grid template Mobile"></a></p>
+<p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="40%" src="https://user-images.githubusercontent.com/62371438/123925921-5ff2da80-d959-11eb-93e4-337ea5587729.jpeg" alt="Grid template Mobile"></a></p>
 
 ## Desktop
-<p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="75%" src="https://user-images.githubusercontent.com/62371438/123628107-bc7eba00-d7e0-11eb-9a69-ca09f1cbbe29.jpeg" alt="Grid template Desktop"></a></p>
+<p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="75%" src="https://user-images.githubusercontent.com/62371438/123925924-61240780-d959-11eb-8825-56cf5be53b50.jpeg" alt="Grid template Desktop"></a></p>
