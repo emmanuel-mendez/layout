@@ -75,7 +75,7 @@
 /* Content */
 .content {
  display: grid;
- grid-template-rows: repeat(3, minmax(15rem, auto));
+ grid-template-rows: repeat(3, minmax(3rem, auto));
  grid-template-columns: 1fr;
  grid-template-areas:
   "section"
