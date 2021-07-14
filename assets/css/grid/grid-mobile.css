@@ -4,9 +4,9 @@
  grid-template-rows: 7rem 1fr 7rem;
  grid-template-columns: 1fr;
  grid-template-areas:
-  "header"
-  "content"
-  "footer"
+  "grid-header"
+  "grid-content"
+  "grid-footer"
  ;
  gap: 1rem;
  min-height: 100%;
@@ -78,9 +78,9 @@
  grid-template-rows: repeat(3, minmax(3rem, auto));
  grid-template-columns: 1fr;
  grid-template-areas:
-  "section"
-  "aside"
-  "article"
+  "grid-section"
+  "grid-aside"
+  "grid-article"
  ;
  gap: 1rem;
  width: 80%;

@@ -6,10 +6,10 @@
   grid-template-rows: 7rem minmax(6rem, auto) 1fr 7rem;
   grid-template-columns: 1fr;
   grid-template-areas:
-   "header"
-   "nav"
-   "content"
-   "footer"
+   "grid-header"
+   "grid-nav"
+   "grid-content"
+   "grid-footer"
   ;
  }
 
@@ -54,8 +54,8 @@
   grid-template-rows: repeat(2, minmax(15rem, auto));
   grid-template-columns: 75% 1fr;
   grid-template-areas:
-   "section aside"
-   "article aside"
+   "grid-section grid-aside"
+   "grid-article grid-aside"
   ;
  }
 }
