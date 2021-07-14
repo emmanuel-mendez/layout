@@ -1,27 +1,27 @@
-.grid-header {
+.grid__header {
  grid-area: grid-header;
 }
 
-.grid-nav {
+.grid__nav {
  grid-area: grid-nav;
 }
 
-.grid-content {
+.grid__content {
  grid-area: grid-content;
 }
 
-.grid-section {
+.grid__section {
  grid-area: grid-section;
 }
 
-.grid-article {
+.grid__article {
  grid-area: grid-article;
 }
 
-.grid-aside {
+.grid__aside {
  grid-area: grid-aside;
 }
 
-.grid-footer {
+.grid__footer {
  grid-area: grid-footer;
 }
