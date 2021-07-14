@@ -1,16 +1,12 @@
 /* Personalize */
-.header,
-.nav,
-.nav__subtitle,
-.section,
-.article,
-.aside,
-.footer {
+.layout-element {
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
  font-family: system-ui;
- background: #283e4a;
+ font-size: 1.5rem;
+ background: #3D6981;
  color: white;
+ border-radius: .25rem;
 }

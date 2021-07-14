@@ -6,21 +6,23 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Grid Template</title>
- <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
  <div class="grid">
 
-  <header class="header">
+  <header class="layout-element grid__header header">
 
    <h1 class="title">HEADER</h1>
+
+   <div class="nav--toggle" id="nav--toggle"></div>
 
   </header>
 
 
-  <nav class="nav">
+  <nav class="layout-element grid__nav nav" id="nav">
 
    <h2 class="subtitle nav__subtitle">NAV</h2>
 
@@ -35,23 +37,23 @@
   </nav>
 
 
-  <div class="content">
+  <div class="content grid__content">
 
-   <section class="section">
+   <section class="layout-element grid__section section">
 
     <h2 class="subtitle section__subtitle">SECTION</h2>
 
    </section>
 
 
-   <article class="article">
+   <article class="layout-element grid__article article">
 
     <h2 class="subtitle article__subtitle">ARTICLE</h2>
 
    </article>
 
 
-   <aside class="aside">
+   <aside class="layout-element grid__aside aside">
 
     <h2 class="subtitle aside__subtitle">ASIDE</h2>
 
@@ -60,13 +62,15 @@
   </div>
 
 
-  <footer class="footer">
+  <footer class="layout-element grid__footer footer">
 
    <h2 class="subtitle footer__subtitle">FOOTER</h2>
 
   </footer>
 
  </div>
+
+ <script src="assets/js/scripts.js"></script>
 
 </body>
 
