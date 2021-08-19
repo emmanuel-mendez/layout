@@ -3,7 +3,7 @@ HTML + CSS + JS & Flexbox + Grid
 
 Click on "Use this template" to start your own project.
 
-Published at https://emmanelos.github.io/grid-template/
+Published at https://emmanelos.github.io/responsive-layout/
 
 ## Mobile
 <p align="center"><a href="https://emmanelos.github.io/grid-template/" target="_blank" rel="noopener noreferrer"><img width="40%" src="https://user-images.githubusercontent.com/62371438/123925921-5ff2da80-d959-11eb-93e4-337ea5587729.jpeg" alt="Grid template Mobile"></a></p>
